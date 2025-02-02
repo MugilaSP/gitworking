@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  numbers-app:
+    image: mugilaaaaaa/numbers-app:latest  # Your Docker Hub image
+    container_name: numbers-app
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

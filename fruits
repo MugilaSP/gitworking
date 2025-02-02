@@ -1,1 +1,9 @@
 apple
+docker info
+docker login
+docker tag d6caa77b5b2a mugilaaaaaa/numbers-app
+
+C:\Users\LOGESH>docker push mugilaaaaaa/numbers-app
+ADD yml
+cd project dirctory
+project directory>docker compose up -d
